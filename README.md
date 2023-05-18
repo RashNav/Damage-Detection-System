@@ -22,8 +22,8 @@
 If you prefer to develop the application using the Spyder IDE, follow these additional steps
 
 1. Open the Conda environment with Spyder:  
-  conda activate damage-detection  
-  spyder
+        conda activate damage-detection  
+        spyder
 2. In Spyder, open the newapp.py file located in the project directory.
 3. Modify and customize the code as needed.
 4. Run the application from Spyder's integrated terminal or use the Run button in the IDE.
