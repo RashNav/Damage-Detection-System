@@ -1,8 +1,8 @@
 # Damage-Detection-System
-## This repository contains a Python application that utilizes Mask R-CNN and TensorFlow to detect damages in cars from uploaded images. The application provides a user interface where users can upload an image and view the processed image with identified damages.
+This repository contains a Python application that utilizes Mask R-CNN and TensorFlow to detect damages in cars from uploaded images. The application provides a user interface where users can upload an image and view the processed image with identified damages.
 
 # Prerequisites
-*Python 3.7
+*Python 3.7   
 *Conda
 
 # Installation
