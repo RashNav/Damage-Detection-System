@@ -22,18 +22,18 @@
 If you prefer to develop the application using the Spyder IDE, follow these additional steps
 
 1. Open the Conda environment with Spyder:  
-                conda activate damage-detection  
-                spyder
+> conda activate damage-detection  
+> spyder
 2. In Spyder, open the newapp.py file located in the project directory.
 3. Modify and customize the code as needed.
 4. Run the application from Spyder's integrated terminal or use the Run button in the IDE.
 
 # Project Structure
 * `newapp.py` : Python code for the damage detection application.  
-* models/ : Folder containing the trained model for damage detection.  
-* templates/ : Folder containing the HTML template for the application interface.  
-* static/images : Folder containing output image
-* requirements.txt : List of Python dependencies required by the application.
+* `models/` : Folder containing the trained model for damage detection.  
+* `templates/` : Folder containing the HTML template for the application interface.  
+* `static/images` : Folder containing output image
+* `requirements.txt` : List of Python dependencies required by the application.
 
 # License
 This project is licensed under the MIT License.
