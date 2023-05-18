@@ -29,11 +29,11 @@ If you prefer to develop the application using the Spyder IDE, follow these addi
 4. Run the application from Spyder's integrated terminal or use the Run button in the IDE.
 
 # Project Structure
-newapp.py : Python code for the damage detection application.  
-models/ : Folder containing the trained model for damage detection.  
-templates/ : Folder containing the HTML template for the application interface.  
-static/images : Folder containing output image
-requirements.txt : List of Python dependencies required by the application.
+* newapp.py : Python code for the damage detection application.  
+* models/ : Folder containing the trained model for damage detection.  
+* templates/ : Folder containing the HTML template for the application interface.  
+* static/images : Folder containing output image
+* requirements.txt : List of Python dependencies required by the application.
 
 # License
 This project is licensed under the MIT License.
