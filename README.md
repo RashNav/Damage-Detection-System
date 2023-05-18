@@ -3,12 +3,11 @@
 
 # Prerequisites
 * Python 3.7   
-* Conda
-    printf("dsfdf);
+* Conda  
+
 # Installation
 1. Clone the repository
-2. Create a Conda virtual environment: 
-    conda create -n damage-detection python=3.7
+2. Create a Conda virtual environment: conda create -n damage-detection python=3.7
 4. Activate the virtual environment: conda activate damage-detection
 5. Install the required dependencies: pip install -r requirements.txt
 
