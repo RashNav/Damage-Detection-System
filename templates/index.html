@@ -1,0 +1,34 @@
+<!doctype html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car damage detection</title>
+</head>
+<body style="background: #000;">
+
+  <h2 style="color:Violet;">Damage detection</h2><p>
+  <h4 style="color:Violet;">Upload an image and click submit</h4>
+
+
+  <form method="POST" action="{{ url_for('predict') }}" enctype="multipart/form-data">
+      <dl>
+  	<p style="color:Violet;">
+  		<input type="file" name="file" autocomplete="off" required>
+  	</p>
+      </dl>
+      <p style="color:Violet;">
+  	<input type="submit" name="submit" value="Submit">
+      </p>
+  </form>
+  
+  <!-- Display the processed image -->
+    {% if processed_image %}
+    <h2>Processed Image</h2>
+    <img src="{{ url_for('static', filename='images/' + processed_image) }}" alt="Processed Image">
+    {% endif %}
+  
+
+</body>
+</html>
+
