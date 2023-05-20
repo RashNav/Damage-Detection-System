@@ -68,7 +68,7 @@ class CustomConfig(Config):
     IMAGES_PER_GPU = 1
     
     # Number of classes (including background)
-    NUM_CLASSES = 1 + 2  # Background + Hard_hat, Safety_vest
+    NUM_CLASSES = 1 + 2  # Background + scratches, dents
 
     # Number of training steps per epoch
     STEPS_PER_EPOCH = 10
@@ -106,8 +106,6 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 def hello_world():
     return render_template('index.html')
 
-
-
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
     try:
@@ -141,26 +139,6 @@ def predict():
     except Exception as e:
         # Handle the exception and provide an appropriate error message
         return f"An error occurred: {str(e)}"
-
-
-
-    #return render_template('index.html', image_path=image_path)
-    # Call the display_instances() function to generate the output image
-    #fig = visualize.display_instances(image, r['rois'], r['masks'], r['class_ids'], dataset_train.class_names, r['scores'], figsize=(5,5))
-    
-    # Define the output path for the image relative to the current working directory
-    #output_path = os.path.join(os.getcwd(), 'output_image.png')
-    
-    # Save the output image to the current working directory
-    #fig.savefig(output_path)
-    
-    # Close the Matplotlib figure to free up memory
-    #plt.close(fig)
-                                
-      
-
+                               
 if __name__ == "__main__":
     app.run()
-
-    
-
